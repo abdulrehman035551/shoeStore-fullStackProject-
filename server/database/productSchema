@@ -1,0 +1,33 @@
+let mongoose=require('mongoose')
+let productschema=new mongoose.Schema({
+    name:{
+        type:String,
+        require:true
+    },
+    brand:{
+        type:String,
+        require:true
+    },
+    brand:{
+        type:String,
+        require:true
+    },
+    description:{
+        type:String,
+        require:true
+    },
+    price:{
+        type:String,
+        require:true
+    },
+    image:{
+        type:Object,
+        require:true
+    }
+    
+})
+// let Product=mongoose.model('Product',productschema)
+// module.exports=Product
+let Product=mongoose.model('Product',productschema);
+
+module.exports= Product;

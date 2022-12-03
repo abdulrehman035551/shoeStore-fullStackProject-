@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Gulzar&family=Merriweather:wght@700&family=PT+Sans&family=Roboto+Condensed&family=Six+Caps&display=swap');
+.logo{
+    width: 90px;
+    position: absolute;
+    left: 0px;
+}
+.catagories{
+   
+    position: absolute;
+    left: 164px;
+    width: 416px;
+    height: 41px;
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    /* color: black; */
+    font-size: larger;
+    text-decoration: none;
+   
+   
+   
+  
+}
+/* .catagories Link{
+    list-style: none;
+    color:  red;
+    text-decoration: none;
+} */
+.login-signup{
+    position: absolute;
+    right: 8px;
+    width: 200px;
+    height: 41px;
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    /* color: black; */
+    font-size: larger;
+    font-family: 'Merriweather', serif;
+    text-decoration: none;
+  
+}
+.login-signup Link{
+    text-decoration: none;
+  
+}
+#card-icon{
+    width: 38px;
+}
+.cat-link{
+    color: black;
+    text-decoration: none;
+    /* font-family: 'Gulzar', serif; */
+font-family: 'Merriweather', serif;
+/* font-family: 'PT Sans', sans-serif; */
+font-family: 'Roboto Condensed', sans-serif;
+/* font-family: 'Six Caps', sans-serif; */
+}
+@media only screen and (max-width: 600px) {
+   .logo {
+      width:45px;
+    }
+    .catagories{
+        left: 70px;
+    width: 174px;
+    font-size: small;
+    }
+    #card-icon {
+        width: 25px;
+    }
+    .login-signup{
+         width: 127px;
+         font-size: small;
+    }
+  }

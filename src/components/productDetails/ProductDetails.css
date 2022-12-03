@@ -1,0 +1,28 @@
+#btn{
+    font-family: monospace;
+    margin-top: 23px;
+    width: 130px;
+    height: 43px;
+    font-size: larger;
+    border: solid;
+    background-color: black;
+    color: white;
+    border: solid white;
+    border-radius: 16px;
+    cursor: pointer;
+}
+#btn:hover{
+    background-color: rgb(154, 154, 149);
+}
+.btn{
+    width: 50px;
+    border: solid;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: rgb(154, 154, 149);
+
+}

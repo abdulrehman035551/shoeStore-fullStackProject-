@@ -1,0 +1,40 @@
+.banner{
+    width: 100%;
+    margin-top: 15px;
+    background: #eee;
+    /* min-height: 155px; */
+    line-height: 0;
+}
+#kids-img{
+    max-width: 100%;
+}
+.half-banner{
+    display: flex;
+   max-width: 100%;
+   margin-top: 15px;
+    background: #eee;
+    min-height: 155px;
+    line-height: 0;
+}
+#half-img{
+    width: 100%;
+}
+#sale-img
+{
+    margin-top: 15px;
+    width: 100%;
+}
+@media only screen and (max-width: 600px) {
+    #box{
+        /* background-color: red; */
+        background-repeat: no-repeat; 
+        background-position: center;
+        /* background-attachment: fixed;        */
+        /* webkit-background-size: cover; */
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 288px;
+        width:100%;
+    }
+}
